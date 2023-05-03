@@ -1,0 +1,5 @@
+project: tuner
+target: search
+
+cmds:
+  - cmd: /tmp/app/fuzz/fuzz.libfuzzer
