@@ -7,7 +7,6 @@ RUN curl -OL https://golang.org/dl/go1.20.3.linux-amd64.tar.gz
 RUN tar -C /usr/local -xzf go1.20.3.linux-amd64.tar.gz
 RUN export PATH=$PATH:/usr/local/go/bin
 
-
 #Install go-fuzz-build 
 
 RUN go install github.com/dvyukov/go-fuzz/go-fuzz-build@latest
